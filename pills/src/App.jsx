@@ -94,7 +94,7 @@ function App() {
         })}
         {/* input feild with search suggestions */}
         <div>
-          <input
+           <input
             ref={inputRef}
             type="text"
             value={searchTerm}
