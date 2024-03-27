@@ -27,7 +27,7 @@ function App() {
     setData((prevData)=>[...prevData , ...data]);
     setTimeout(()=>{
        setLoading(false);
-    },4000)
+    },1000)
     setPage((prevPage)=>prevPage+1);
      
   },[loading,page])

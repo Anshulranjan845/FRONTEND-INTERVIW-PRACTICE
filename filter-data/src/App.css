@@ -1,0 +1,38 @@
+.app{
+  text-align: center;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+button{
+  margin: 5px;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.filter-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filter-data{
+  width: 100px;
+  height : 100px;
+  margin: 10px;
+  border: 0.7px solid lightgray;
+}
+.filter-category{
+  font-size: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.selected {
+  background-color: black;
+  color: white;
+}
